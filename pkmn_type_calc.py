@@ -1,13 +1,28 @@
+from ast import Return
+from asyncio.windows_events import NULL
 from os import linesep
 
-# enumeration for type properties
+# Enumeration for type properties
 NAME = 0
 WEAK = 1
 RESIST = 2
 IMMUNE = 3
+NEUTRAL = 4
+#VWEAK = 5
+#VRESIST = 6
 
-# list of all types and their properties
+# Hash Map, Collision of type weakness/resistances
+# See if any overlay, seeing if x4, x.25 is needed
+# Brute Force Baby
+
+# list of possible type combos
+type_combos = []
+# Set of processed type combos
+processed_type_combos = []
+
+# List of all types and their properties
 # NOTE: indexing is strict and affects property sets - DO NOT reorganize list
+# Name, Weak to, Resist to, Immune to
 types = [
     # 0
     ('Bug', {5, 13, 4}, {3, 8, 7}, set()),
@@ -45,8 +60,8 @@ types = [
     ('Steel', {3, 8, 4}, {10, 5, 13, 0, 16, 7, 12, 9, 1, 17}, {11}),
     # 17
     ('Fairy', {11, 16}, {3, 0, 15}, {1}),
+    # 18 ('???', set(), set(), set()),
 ]
-
 
 # function to get a property set as a single string
 def get_property_str(property_set):
@@ -59,20 +74,28 @@ def get_property_str(property_set):
     except Exception:
         print(f'***ERROR PROCESSING SET {property_set} ***')
 
-
-# define a class for a type combination
-class TypeCombo:
+# Define a class for a type combination
+class Typing:
     def __init__(self, t1, t2, w1, w2, r1, r2, i):
         self.type1 = t1
         self.type2 = t2
+        
         self.weak_x1 = w1
         self.weak_x2 = w2
+        #self.weak_x4 = w4
+        
         self.resist_x1 = r1
         self.resist_x2 = r2
+        #self.resist_x2 = r4
+        
         self.immune = i
 
+
     def __str__(self):
-        s = f'TYPE: {self.type1[NAME]} / {self.type2[NAME]}{linesep}'
+        if(self.type2[NAME] == self.type1[NAME]):
+            s = f'TYPE: {self.type1[NAME]}{linesep}'
+        else:
+            s = f'TYPE: {self.type1[NAME]} / {self.type2[NAME]}{linesep}'
         s += f'=> WEAK x1: {get_property_str(self.weak_x1)}{linesep}'
         s += f'=> WEAK x2: {get_property_str(self.weak_x2)}{linesep}'
         s += f'=> RESIST x1: {get_property_str(self.resist_x1)}{linesep}'
@@ -81,24 +104,16 @@ class TypeCombo:
         s += f'------------------------{linesep}'
         return s
 
-
-# initialize a list of possible type combos
-type_combos = []
-# initialize a set of processed type combos
-# new var so we can compare indexes instead of entire objects
-processed_type_combos = []
-
-
-# function to combine two types
-# utilizes set operations to calculate new properties
+# Function to combine two types
+# Utilizes set operations to calculate new properties
 def combine(type1, type2):
-    # same type cannot be combined
-    if type1[NAME] == type2[NAME]:
-        return
-
     # calculate weak x2, resist x2, and immunities
     weak_x2 = type1[WEAK] & type2[WEAK]
+    #for i in weak_x2:
+        #print(i)
     resist_x2 = type1[RESIST] & type2[RESIST]
+    #for i in resist_x2:
+        #print(i + i)
     immune = type1[IMMUNE] | type2[IMMUNE]
 
     # initialize vars for reuse
@@ -110,20 +125,46 @@ def combine(type1, type2):
     weak_x1 = weak_all - resist_all - handled
     resist_x1 = resist_all - weak_all - handled
 
-    # create and return a new TypeCombo
-    return TypeCombo(type1, type2, set(weak_x1), set(weak_x2),
+    # create and return a new Typing
+    return Typing(type1, type2, set(weak_x1), set(weak_x2),
                      set(resist_x1), set(resist_x2), set(immune))
 
+# Simulates a Pokemon Attack
+def attack(typeAtk, Defender):
+    print(typeAtk)
+    immune  = Defender.type1[IMMUNE] | Defender.type2[IMMUNE] 
+    if typeAtk in immune:
+        print("It had no Effect!")
+        return IMMUNE
+    
+    weak_x2 = Defender.type1[WEAK] & Defender.type2[WEAK]
+    if typeAtk in weak_x2:
+        print("It's Super Effective!")
+        return WEAK
+    
+    resist_x2 = Defender.type1[RESIST] & Defender.type2[RESIST]
+    if typeAtk in resist_x2:
+        print("It's not very Effective...")
+        return RESIST
+    else:
+        print("It's neutrally Effective.")
+        return NEUTRAL
 
-def main():
-    # determine static length
+def curtain(input):
+    if input == 1:
+        return combine(types[0],types[6])
+    if input == 2:
+        return combine(types[0],types[6])
+    if input == 3:
+        return combine(types[0],types[6])
+
+# Testing Function to see all combinations
+def all_combos():   
+    
     length = len(types)
     # loop over type combos
     for i1 in range(0, length):
         for i2 in range(0, length):
-            # if types are the same, skip
-            if i1 == i2:
-                continue
             # initialize a set of indexes of the current combo
             combo_indexes = {i1, i2}
             # check if combo was already processed
@@ -134,10 +175,21 @@ def main():
                 type_combos.append(new_type)
                 # add index set to the list of processed combos
                 processed_type_combos.append(combo_indexes)
+    
+    
+    
+    
+    #[print(t) for t in type_combos]
+    out_file = open("result.txt", "w")
+    for t in type_combos:
+        out_file.write("%s\n" % t)
+    out_file.close()
 
-    # print results
-    [print(t) for t in type_combos]
-
+def main():
+    all_combos()
+    print("Welcome to the Pokemon Proof!")
+    UnknownDefender = combine(types[0],types[6])
+    attack(13, UnknownDefender) 
 
 if __name__ == '__main__':
     main()

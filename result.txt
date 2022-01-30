@@ -1,0 +1,1368 @@
+TYPE: Bug
+=> WEAK x1: -
+=> WEAK x2: Flying, Fire, Rock
+=> RESIST x1: -
+=> RESIST x2: Ground, Fighting, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Dragon
+=> WEAK x1: Dragon, Fairy, Flying, Ice, Rock
+=> WEAK x2: -
+=> RESIST x1: Ground, Electric, Fighting, Water
+=> RESIST x2: Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Electric
+=> WEAK x1: Fire, Rock
+=> WEAK x2: -
+=> RESIST x1: Steel, Electric, Fighting, Grass
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Fighting
+=> WEAK x1: Fairy, Psychic, Fire
+=> WEAK x2: Flying
+=> RESIST x1: Bug, Fighting, Grass, Ground, Dark
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Fire
+=> WEAK x1: Flying, Water
+=> WEAK x2: Rock
+=> RESIST x1: Bug, Steel, Fairy, Fighting, Ice
+=> RESIST x2: Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Flying
+=> WEAK x1: Ice, Electric, Fire, Flying
+=> WEAK x2: Rock
+=> RESIST x1: Bug
+=> RESIST x2: Fighting, Grass
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Bug / Ghost
+=> WEAK x1: Fire, Flying, Ghost, Rock, Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Ground, Poison, Grass
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Bug / Grass
+=> WEAK x1: Bug, Ice, Poison, Rock
+=> WEAK x2: Fire, Flying
+=> RESIST x1: Electric, Fighting, Water
+=> RESIST x2: Ground, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Ground
+=> WEAK x1: Ice, Fire, Flying, Water
+=> WEAK x2: -
+=> RESIST x1: Ground, Fighting, Poison
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Bug / Ice
+=> WEAK x1: Steel, Flying
+=> WEAK x2: Fire, Rock
+=> RESIST x1: Ground, Ice, Grass
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Normal
+=> WEAK x1: Flying, Fire, Rock
+=> WEAK x2: -
+=> RESIST x1: Ground, Grass
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Bug / Poison
+=> WEAK x1: Flying, Fire, Rock
+=> WEAK x2: -
+=> RESIST x1: Bug, Fairy
+=> RESIST x2: Fighting, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Psychic
+=> WEAK x1: Bug, Fire, Flying, Ghost, Rock, Dark
+=> WEAK x2: -
+=> RESIST x1: Ground, Psychic, Grass
+=> RESIST x2: Fighting
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Rock
+=> WEAK x1: Steel, Rock, Water
+=> WEAK x2: -
+=> RESIST x1: Normal, Poison
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Water
+=> WEAK x1: Electric, Flying, Rock
+=> WEAK x2: -
+=> RESIST x1: Steel, Fighting, Ground, Ice, Water
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Bug / Dark
+=> WEAK x1: Bug, Fairy, Fire, Flying, Rock
+=> WEAK x2: -
+=> RESIST x1: Ground, Grass, Ghost, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Bug / Steel
+=> WEAK x1: -
+=> WEAK x2: Fire
+=> RESIST x1: Bug, Dragon, Steel, Fairy, Ice, Normal, Psychic
+=> RESIST x2: Grass
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Bug / Fairy
+=> WEAK x1: Steel, Fire, Flying, Poison, Rock
+=> WEAK x2: -
+=> RESIST x1: Bug, Ground, Dark, Grass
+=> RESIST x2: Fighting
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Dragon
+=> WEAK x1: -
+=> WEAK x2: Dragon, Fairy, Ice
+=> RESIST x1: -
+=> RESIST x2: Electric, Fire, Water, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Electric
+=> WEAK x1: Ground, Dragon, Fairy, Ice
+=> WEAK x2: -
+=> RESIST x1: Steel, Fire, Flying, Grass, Water
+=> RESIST x2: Electric
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Fighting
+=> WEAK x1: Dragon, Psychic, Flying, Ice
+=> WEAK x2: Fairy
+=> RESIST x1: Bug, Electric, Fire, Grass, Rock, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Fire
+=> WEAK x1: Ground, Dragon, Rock
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Electric
+=> RESIST x2: Fire, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Flying
+=> WEAK x1: Dragon, Rock, Fairy
+=> WEAK x2: Ice
+=> RESIST x1: Bug, Fighting, Fire, Water
+=> RESIST x2: Grass
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Dragon / Ghost
+=> WEAK x1: Dragon, Fairy, Ghost, Ice, Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Electric, Fire, Grass, Poison, Water
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Dragon / Grass
+=> WEAK x1: Bug, Dragon, Fairy, Flying, Poison
+=> WEAK x2: Ice
+=> RESIST x1: Ground
+=> RESIST x2: Electric, Water, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Ground
+=> WEAK x1: Dragon, Fairy
+=> WEAK x2: Ice
+=> RESIST x1: Poison, Fire, Rock
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Dragon / Ice
+=> WEAK x1: Steel, Dragon, Fairy, Fighting, Rock
+=> WEAK x2: -
+=> RESIST x1: Electric, Water, Grass
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Normal
+=> WEAK x1: Dragon, Fighting, Fairy, Ice
+=> WEAK x2: -
+=> RESIST x1: Electric, Fire, Water, Grass
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Dragon / Poison
+=> WEAK x1: Ground, Dragon, Ice
+=> WEAK x2: -
+=> RESIST x1: Bug, Electric, Fighting, Fire, Water
+=> RESIST x2: Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Psychic
+=> WEAK x1: Bug, Dragon, Fairy, Ghost, Ice, Dark
+=> WEAK x2: -
+=> RESIST x1: Electric, Fighting, Fire, Grass, Psychic, Water
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Rock
+=> WEAK x1: Steel, Dragon, Fairy, Fighting, Ground, Ice
+=> WEAK x2: -
+=> RESIST x1: Poison, Electric, Normal, Flying
+=> RESIST x2: Fire
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Water
+=> WEAK x1: Dragon, Fairy
+=> WEAK x2: -
+=> RESIST x1: Steel
+=> RESIST x2: Fire, Water
+=> IMMUNE: -
+------------------------
+
+TYPE: Dragon / Dark
+=> WEAK x1: Bug, Dragon, Fighting, Ice
+=> WEAK x2: Fairy
+=> RESIST x1: Electric, Fire, Ghost, Grass, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Dragon / Steel
+=> WEAK x1: Ground, Fighting
+=> WEAK x2: -
+=> RESIST x1: Bug, Electric, Flying, Normal, Psychic, Rock, Water, Steel
+=> RESIST x2: Grass
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Dragon / Fairy
+=> WEAK x1: Steel, Ice, Poison, Fairy
+=> WEAK x2: -
+=> RESIST x1: Bug, Electric, Fighting, Fire, Grass, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Electric
+=> WEAK x1: -
+=> WEAK x2: Ground
+=> RESIST x1: -
+=> RESIST x2: Steel, Electric, Flying
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Fighting
+=> WEAK x1: Ground, Fairy, Psychic
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Electric, Rock, Dark
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Fire
+=> WEAK x1: Rock, Water
+=> WEAK x2: Ground
+=> RESIST x1: Bug, Fairy, Electric, Fire, Flying, Grass, Ice
+=> RESIST x2: Steel
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Flying
+=> WEAK x1: Ice, Rock
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Fighting, Flying, Grass
+=> RESIST x2: -
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Electric / Ghost
+=> WEAK x1: Ground, Ghost, Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Electric, Flying, Poison
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Electric / Grass
+=> WEAK x1: Bug, Ice, Poison, Fire
+=> WEAK x2: -
+=> RESIST x1: Steel, Water, Grass
+=> RESIST x2: Electric
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Ground
+=> WEAK x1: Ground, Ice, Water, Grass
+=> WEAK x2: -
+=> RESIST x1: Steel, Rock, Poison, Flying
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Electric / Ice
+=> WEAK x1: Ground, Fighting, Fire, Rock
+=> WEAK x2: -
+=> RESIST x1: Ice, Electric, Flying
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Normal
+=> WEAK x1: Ground, Fighting
+=> WEAK x2: -
+=> RESIST x1: Steel, Electric, Flying
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Electric / Poison
+=> WEAK x1: -
+=> WEAK x2: Ground
+=> RESIST x1: Bug, Steel, Electric, Fighting, Fairy, Flying, Grass
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Psychic
+=> WEAK x1: Ground, Bug, Ghost, Dark
+=> WEAK x2: -
+=> RESIST x1: Steel, Electric, Fighting, Flying, Psychic
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Rock
+=> WEAK x1: Fighting, Water, Grass
+=> WEAK x2: Ground
+=> RESIST x1: Poison, Electric, Normal, Fire
+=> RESIST x2: Flying
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Water
+=> WEAK x1: Ground, Grass
+=> WEAK x2: -
+=> RESIST x1: Ice, Fire, Flying, Water
+=> RESIST x2: Steel
+=> IMMUNE: -
+------------------------
+
+TYPE: Electric / Dark
+=> WEAK x1: Ground, Bug, Fighting, Fairy
+=> WEAK x2: -
+=> RESIST x1: Steel, Electric, Flying, Ghost, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Electric / Steel
+=> WEAK x1: Fighting, Fire
+=> WEAK x2: Ground
+=> RESIST x1: Bug, Dragon, Electric, Grass, Ice, Normal, Psychic, Rock, Fairy
+=> RESIST x2: Steel, Flying
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Electric / Fairy
+=> WEAK x1: Ground, Poison
+=> WEAK x2: -
+=> RESIST x1: Bug, Electric, Fighting, Flying, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Fighting
+=> WEAK x1: -
+=> WEAK x2: Fairy, Psychic, Flying
+=> RESIST x1: -
+=> RESIST x2: Bug, Rock, Dark
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Fire
+=> WEAK x1: Ground, Psychic, Flying, Water
+=> WEAK x2: -
+=> RESIST x1: Steel, Fire, Grass, Ice, Dark
+=> RESIST x2: Bug
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Flying
+=> WEAK x1: Fairy, Electric, Flying, Ice, Psychic
+=> WEAK x2: -
+=> RESIST x1: Fighting, Grass, Dark
+=> RESIST x2: Bug
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Fighting / Ghost
+=> WEAK x1: Fairy, Psychic, Flying, Ghost
+=> WEAK x2: -
+=> RESIST x1: Poison, Rock
+=> RESIST x2: Bug
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Fighting / Grass
+=> WEAK x1: Fairy, Fire, Ice, Poison, Psychic
+=> WEAK x2: Flying
+=> RESIST x1: Electric, Grass, Ground, Rock, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Ground
+=> WEAK x1: Fairy, Flying, Grass, Ice, Psychic, Water
+=> WEAK x2: -
+=> RESIST x1: Bug, Poison, Dark
+=> RESIST x2: Rock
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Fighting / Ice
+=> WEAK x1: Steel, Fairy, Fighting, Fire, Flying, Psychic
+=> WEAK x2: -
+=> RESIST x1: Bug, Ice, Dark
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Normal
+=> WEAK x1: Fairy, Fighting, Psychic, Flying
+=> WEAK x2: -
+=> RESIST x1: Bug, Rock, Dark
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Fighting / Poison
+=> WEAK x1: Ground, Psychic, Flying
+=> WEAK x2: -
+=> RESIST x1: Fighting, Dark, Rock, Grass
+=> RESIST x2: Bug
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Psychic
+=> WEAK x1: Fairy, Flying, Ghost
+=> WEAK x2: -
+=> RESIST x1: Fighting, Rock
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Rock
+=> WEAK x1: Steel, Fairy, Fighting, Grass, Ground, Psychic, Water
+=> WEAK x2: -
+=> RESIST x1: Bug, Fire, Normal, Poison, Rock, Dark
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Water
+=> WEAK x1: Fairy, Electric, Flying, Grass, Psychic
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Fire, Ice, Rock, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Fighting / Dark
+=> WEAK x1: Fighting, Flying
+=> WEAK x2: Fairy
+=> RESIST x1: Rock, Ghost
+=> RESIST x2: Dark
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Fighting / Steel
+=> WEAK x1: Ground, Fighting, Fire
+=> WEAK x2: -
+=> RESIST x1: Steel, Dragon, Grass, Ice, Normal, Dark
+=> RESIST x2: Bug, Rock
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Fighting / Fairy
+=> WEAK x1: Steel, Fairy, Flying, Poison, Psychic
+=> WEAK x2: -
+=> RESIST x1: Fighting, Rock
+=> RESIST x2: Bug, Dark
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Fire
+=> WEAK x1: -
+=> WEAK x2: Ground, Rock, Water
+=> RESIST x1: -
+=> RESIST x2: Bug, Steel, Fairy, Fire, Grass, Ice
+=> IMMUNE: -
+------------------------
+
+TYPE: Fire / Flying
+=> WEAK x1: Electric, Water
+=> WEAK x2: Rock
+=> RESIST x1: Steel, Fairy, Fighting, Fire
+=> RESIST x2: Bug, Grass
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Fire / Ghost
+=> WEAK x1: Ghost, Ground, Rock, Water, Dark
+=> WEAK x2: -
+=> RESIST x1: Steel, Fairy, Fire, Grass, Ice, Poison
+=> RESIST x2: Bug
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Fire / Grass
+=> WEAK x1: Flying, Poison, Rock
+=> WEAK x2: -
+=> RESIST x1: Steel, Fairy, Electric
+=> RESIST x2: Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Fire / Ground
+=> WEAK x1: Ground
+=> WEAK x2: Water
+=> RESIST x1: Bug, Steel, Fairy, Fire, Poison
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Fire / Ice
+=> WEAK x1: Ground, Fighting, Water
+=> WEAK x2: Rock
+=> RESIST x1: Bug, Fairy, Grass
+=> RESIST x2: Ice
+=> IMMUNE: -
+------------------------
+
+TYPE: Fire / Normal
+=> WEAK x1: Ground, Fighting, Rock, Water
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Fairy, Fire, Grass, Ice
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Fire / Poison
+=> WEAK x1: Rock, Water
+=> WEAK x2: Ground
+=> RESIST x1: Steel, Ice, Fighting, Fire
+=> RESIST x2: Bug, Fairy, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Fire / Psychic
+=> WEAK x1: Ghost, Ground, Rock, Water, Dark
+=> WEAK x2: -
+=> RESIST x1: Steel, Fairy, Fighting, Fire, Grass, Ice, Psychic
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Fire / Rock
+=> WEAK x1: Fighting, Rock
+=> WEAK x2: Ground, Water
+=> RESIST x1: Bug, Fairy, Flying, Ice, Normal, Poison
+=> RESIST x2: Fire
+=> IMMUNE: -
+------------------------
+
+TYPE: Fire / Water
+=> WEAK x1: Ground, Electric, Rock
+=> WEAK x2: -
+=> RESIST x1: Bug, Fairy
+=> RESIST x2: Steel, Ice, Fire
+=> IMMUNE: -
+------------------------
+
+TYPE: Fire / Dark
+=> WEAK x1: Ground, Fighting, Rock, Water
+=> WEAK x2: -
+=> RESIST x1: Steel, Fire, Ghost, Grass, Ice, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Fire / Steel
+=> WEAK x1: Fighting, Water
+=> WEAK x2: Ground
+=> RESIST x1: Dragon, Normal, Psychic, Flying
+=> RESIST x2: Bug, Steel, Fairy, Grass, Ice
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Fire / Fairy
+=> WEAK x1: Ground, Poison, Rock, Water
+=> WEAK x2: -
+=> RESIST x1: Fairy, Fighting, Fire, Grass, Ice, Dark
+=> RESIST x2: Bug
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Flying
+=> WEAK x1: -
+=> WEAK x2: Ice, Electric, Rock
+=> RESIST x1: -
+=> RESIST x2: Bug, Fighting, Grass
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Flying / Ghost
+=> WEAK x1: Electric, Ghost, Ice, Rock, Dark
+=> WEAK x2: -
+=> RESIST x1: Poison, Grass
+=> RESIST x2: Bug
+=> IMMUNE: Ground, Normal, Fighting
+------------------------
+
+TYPE: Flying / Grass
+=> WEAK x1: Rock, Poison, Fire, Flying
+=> WEAK x2: Ice
+=> RESIST x1: Fighting, Water
+=> RESIST x2: Grass
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Flying / Ground
+=> WEAK x1: Water
+=> WEAK x2: Ice
+=> RESIST x1: Bug, Fighting, Poison
+=> RESIST x2: -
+=> IMMUNE: Ground, Electric
+------------------------
+
+TYPE: Flying / Ice
+=> WEAK x1: Steel, Electric, Fire
+=> WEAK x2: Rock
+=> RESIST x1: Bug, Grass
+=> RESIST x2: -
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Flying / Normal
+=> WEAK x1: Ice, Electric, Rock
+=> WEAK x2: -
+=> RESIST x1: Bug, Grass
+=> RESIST x2: -
+=> IMMUNE: Ground, Ghost
+------------------------
+
+TYPE: Flying / Poison
+=> WEAK x1: Ice, Electric, Rock
+=> WEAK x2: -
+=> RESIST x1: Fairy
+=> RESIST x2: Bug, Fighting, Grass
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Flying / Psychic
+=> WEAK x1: Electric, Ghost, Ice, Rock, Dark
+=> WEAK x2: -
+=> RESIST x1: Psychic, Grass
+=> RESIST x2: Fighting
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Flying / Rock
+=> WEAK x1: Steel, Electric, Ice, Rock, Water
+=> WEAK x2: -
+=> RESIST x1: Bug, Fire, Flying, Normal, Poison
+=> RESIST x2: -
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Flying / Water
+=> WEAK x1: Rock
+=> WEAK x2: Electric
+=> RESIST x1: Bug, Steel, Fighting, Fire, Water
+=> RESIST x2: -
+=> IMMUNE: Ground
+------------------------
+
+TYPE: Flying / Dark
+=> WEAK x1: Fairy, Electric, Rock, Ice
+=> WEAK x2: -
+=> RESIST x1: Grass, Ghost, Dark
+=> RESIST x2: -
+=> IMMUNE: Ground, Psychic
+------------------------
+
+TYPE: Flying / Steel
+=> WEAK x1: Electric, Fire
+=> WEAK x2: -
+=> RESIST x1: Steel, Dragon, Fairy, Flying, Normal, Psychic
+=> RESIST x2: Bug, Grass
+=> IMMUNE: Ground, Poison
+------------------------
+
+TYPE: Flying / Fairy
+=> WEAK x1: Steel, Electric, Ice, Poison, Rock
+=> WEAK x2: -
+=> RESIST x1: Grass, Dark
+=> RESIST x2: Bug, Fighting
+=> IMMUNE: Ground, Dragon
+------------------------
+
+TYPE: Ghost
+=> WEAK x1: -
+=> WEAK x2: Ghost, Dark
+=> RESIST x1: -
+=> RESIST x2: Bug, Poison
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Ghost / Grass
+=> WEAK x1: Fire, Flying, Ghost, Ice, Dark
+=> WEAK x2: -
+=> RESIST x1: Ground, Electric, Water, Grass
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Ghost / Ground
+=> WEAK x1: Ghost, Grass, Ice, Water, Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Rock
+=> RESIST x2: Poison
+=> IMMUNE: Electric, Normal, Fighting
+------------------------
+
+TYPE: Ghost / Ice
+=> WEAK x1: Steel, Fire, Ghost, Rock, Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Ice, Poison
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Ghost / Normal
+=> WEAK x1: Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Poison
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting, Ghost
+------------------------
+
+TYPE: Ghost / Poison
+=> WEAK x1: Ground, Ghost, Dark
+=> WEAK x2: -
+=> RESIST x1: Fairy, Grass
+=> RESIST x2: Bug, Poison
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Ghost / Psychic
+=> WEAK x1: -
+=> WEAK x2: Ghost, Dark
+=> RESIST x1: Poison, Psychic
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Ghost / Rock
+=> WEAK x1: Steel, Ghost, Grass, Ground, Water, Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Fire, Flying
+=> RESIST x2: Poison
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Ghost / Water
+=> WEAK x1: Electric, Grass, Ghost, Dark
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Fire, Ice, Poison, Water
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting
+------------------------
+
+TYPE: Ghost / Dark
+=> WEAK x1: Fairy
+=> WEAK x2: -
+=> RESIST x1: Poison
+=> RESIST x2: -
+=> IMMUNE: Normal, Fighting, Psychic
+------------------------
+
+TYPE: Ghost / Steel
+=> WEAK x1: Ground, Fire, Ghost, Dark
+=> WEAK x2: -
+=> RESIST x1: Dragon, Flying, Grass, Ice, Psychic, Rock, Steel, Fairy
+=> RESIST x2: Bug
+=> IMMUNE: Poison, Normal, Fighting
+------------------------
+
+TYPE: Ghost / Fairy
+=> WEAK x1: Steel, Ghost
+=> WEAK x2: -
+=> RESIST x1: -
+=> RESIST x2: Bug
+=> IMMUNE: Dragon, Normal, Fighting
+------------------------
+
+TYPE: Grass
+=> WEAK x1: -
+=> WEAK x2: Bug, Fire, Flying, Ice, Poison
+=> RESIST x1: -
+=> RESIST x2: Ground, Electric, Water, Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Grass / Ground
+=> WEAK x1: Bug, Fire, Flying
+=> WEAK x2: Ice
+=> RESIST x1: Ground, Rock
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Grass / Ice
+=> WEAK x1: Bug, Steel, Fighting, Flying, Poison, Rock
+=> WEAK x2: Fire
+=> RESIST x1: Ground, Electric, Water, Grass
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Grass / Normal
+=> WEAK x1: Bug, Fighting, Fire, Flying, Ice, Poison
+=> WEAK x2: -
+=> RESIST x1: Ground, Electric, Water, Grass
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Grass / Poison
+=> WEAK x1: Ice, Fire, Flying
+=> WEAK x2: Poison
+=> RESIST x1: Fairy, Electric, Fighting, Water
+=> RESIST x2: Grass
+=> IMMUNE: -
+------------------------
+
+TYPE: Grass / Psychic
+=> WEAK x1: Fire, Flying, Ghost, Ice, Poison, Dark
+=> WEAK x2: Bug
+=> RESIST x1: Electric, Fighting, Grass, Ground, Psychic, Water
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Grass / Rock
+=> WEAK x1: Bug, Ice, Fighting, Steel
+=> WEAK x2: -
+=> RESIST x1: Electric, Normal
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Grass / Water
+=> WEAK x1: Bug, Poison, Flying
+=> WEAK x2: -
+=> RESIST x1: Ground, Steel
+=> RESIST x2: Water
+=> IMMUNE: -
+------------------------
+
+TYPE: Grass / Dark
+=> WEAK x1: Fairy, Fighting, Fire, Flying, Ice, Poison
+=> WEAK x2: Bug
+=> RESIST x1: Electric, Ghost, Grass, Ground, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Grass / Steel
+=> WEAK x1: Fighting
+=> WEAK x2: Fire
+=> RESIST x1: Dragon, Electric, Normal, Psychic, Rock, Water, Steel, Fairy
+=> RESIST x2: Grass
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Grass / Fairy
+=> WEAK x1: Steel, Ice, Fire, Flying
+=> WEAK x2: Poison
+=> RESIST x1: Electric, Fighting, Grass, Ground, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Ground
+=> WEAK x1: -
+=> WEAK x2: Ice, Water, Grass
+=> RESIST x1: -
+=> RESIST x2: Poison, Rock
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Ground / Ice
+=> WEAK x1: Steel, Fighting, Fire, Grass, Water
+=> WEAK x2: -
+=> RESIST x1: Poison
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Ground / Normal
+=> WEAK x1: Ice, Fighting, Water, Grass
+=> WEAK x2: -
+=> RESIST x1: Poison, Rock
+=> RESIST x2: -
+=> IMMUNE: Electric, Ghost
+------------------------
+
+TYPE: Ground / Poison
+=> WEAK x1: Ground, Ice, Water
+=> WEAK x2: -
+=> RESIST x1: Bug, Fairy, Fighting, Rock
+=> RESIST x2: Poison
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Ground / Psychic
+=> WEAK x1: Bug, Ghost, Grass, Ice, Water, Dark
+=> WEAK x2: -
+=> RESIST x1: Fighting, Poison, Psychic, Rock
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Ground / Rock
+=> WEAK x1: Ground, Ice, Fighting, Steel
+=> WEAK x2: Water, Grass
+=> RESIST x1: Normal, Rock, Fire, Flying
+=> RESIST x2: Poison
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Ground / Water
+=> WEAK x1: -
+=> WEAK x2: Grass
+=> RESIST x1: Steel, Poison, Fire, Rock
+=> RESIST x2: -
+=> IMMUNE: Electric
+------------------------
+
+TYPE: Ground / Dark
+=> WEAK x1: Bug, Fairy, Fighting, Grass, Ice, Water
+=> WEAK x2: -
+=> RESIST x1: Poison, Rock, Ghost, Dark
+=> RESIST x2: -
+=> IMMUNE: Electric, Psychic
+------------------------
+
+TYPE: Ground / Steel
+=> WEAK x1: Ground, Fighting, Fire, Water
+=> WEAK x2: -
+=> RESIST x1: Bug, Dragon, Steel, Fairy, Flying, Normal, Psychic
+=> RESIST x2: Rock
+=> IMMUNE: Electric, Poison
+------------------------
+
+TYPE: Ground / Fairy
+=> WEAK x1: Steel, Ice, Water, Grass
+=> WEAK x2: -
+=> RESIST x1: Bug, Fighting, Rock, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon, Electric
+------------------------
+
+TYPE: Ice
+=> WEAK x1: -
+=> WEAK x2: Steel, Fighting, Fire, Rock
+=> RESIST x1: -
+=> RESIST x2: Ice
+=> IMMUNE: -
+------------------------
+
+TYPE: Ice / Normal
+=> WEAK x1: Steel, Fire, Rock
+=> WEAK x2: Fighting
+=> RESIST x1: Ice
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Ice / Poison
+=> WEAK x1: Steel, Ground, Fire, Rock
+=> WEAK x2: -
+=> RESIST x1: Bug, Fairy, Ice, Grass
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Ice / Psychic
+=> WEAK x1: Bug, Steel, Fire, Ghost, Rock, Dark
+=> WEAK x2: -
+=> RESIST x1: Ice, Psychic
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Ice / Rock
+=> WEAK x1: Ground, Rock, Water, Grass
+=> WEAK x2: Steel, Fighting
+=> RESIST x1: Ice, Normal, Poison, Flying
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Ice / Water
+=> WEAK x1: Electric, Fighting, Rock, Grass
+=> WEAK x2: -
+=> RESIST x1: Water
+=> RESIST x2: Ice
+=> IMMUNE: -
+------------------------
+
+TYPE: Ice / Dark
+=> WEAK x1: Bug, Steel, Fairy, Fire, Rock
+=> WEAK x2: Fighting
+=> RESIST x1: Ice, Ghost, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Ice / Steel
+=> WEAK x1: Ground
+=> WEAK x2: Fighting, Fire
+=> RESIST x1: Bug, Dragon, Fairy, Flying, Grass, Normal, Psychic
+=> RESIST x2: Ice
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Ice / Fairy
+=> WEAK x1: Poison, Fire, Rock
+=> WEAK x2: Steel
+=> RESIST x1: Bug, Ice, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Normal
+=> WEAK x1: -
+=> WEAK x2: Fighting
+=> RESIST x1: -
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Normal / Poison
+=> WEAK x1: Ground
+=> WEAK x2: -
+=> RESIST x1: Bug, Fairy, Grass
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Normal / Psychic
+=> WEAK x1: Bug, Dark
+=> WEAK x2: -
+=> RESIST x1: Psychic
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Normal / Rock
+=> WEAK x1: Ground, Steel, Water, Grass
+=> WEAK x2: Fighting
+=> RESIST x1: Normal, Poison, Fire, Flying
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Normal / Water
+=> WEAK x1: Electric, Fighting, Grass
+=> WEAK x2: -
+=> RESIST x1: Steel, Ice, Fire, Water
+=> RESIST x2: -
+=> IMMUNE: Ghost
+------------------------
+
+TYPE: Normal / Dark
+=> WEAK x1: Bug, Fairy
+=> WEAK x2: Fighting
+=> RESIST x1: Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic, Ghost
+------------------------
+
+TYPE: Normal / Steel
+=> WEAK x1: Ground, Fire
+=> WEAK x2: Fighting
+=> RESIST x1: Bug, Dragon, Flying, Grass, Ice, Normal, Psychic, Rock, Steel, Fairy
+=> RESIST x2: -
+=> IMMUNE: Poison, Ghost
+------------------------
+
+TYPE: Normal / Fairy
+=> WEAK x1: Steel, Poison
+=> WEAK x2: -
+=> RESIST x1: Bug, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon, Ghost
+------------------------
+
+TYPE: Poison
+=> WEAK x1: -
+=> WEAK x2: Ground, Poison
+=> RESIST x1: -
+=> RESIST x2: Bug, Fairy, Fighting, Grass, Poison
+=> IMMUNE: -
+------------------------
+
+TYPE: Poison / Psychic
+=> WEAK x1: Ground, Ghost, Dark
+=> WEAK x2: -
+=> RESIST x1: Fairy, Psychic, Grass
+=> RESIST x2: Fighting
+=> IMMUNE: -
+------------------------
+
+TYPE: Poison / Rock
+=> WEAK x1: Steel, Water
+=> WEAK x2: Ground
+=> RESIST x1: Bug, Fairy, Fire, Flying, Normal
+=> RESIST x2: Poison
+=> IMMUNE: -
+------------------------
+
+TYPE: Poison / Water
+=> WEAK x1: Ground, Electric
+=> WEAK x2: -
+=> RESIST x1: Bug, Steel, Fairy, Fighting, Fire, Ice, Water
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Poison / Dark
+=> WEAK x1: Ground
+=> WEAK x2: -
+=> RESIST x1: Grass, Ghost, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Poison / Steel
+=> WEAK x1: Fire
+=> WEAK x2: Ground
+=> RESIST x1: Steel, Dragon, Flying, Ice, Normal, Psychic, Rock
+=> RESIST x2: Bug, Fairy, Grass
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Poison / Fairy
+=> WEAK x1: Ground, Steel
+=> WEAK x2: Poison
+=> RESIST x1: Fairy, Dark, Grass
+=> RESIST x2: Bug, Fighting
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Psychic
+=> WEAK x1: -
+=> WEAK x2: Bug, Ghost, Dark
+=> RESIST x1: -
+=> RESIST x2: Fighting, Psychic
+=> IMMUNE: -
+------------------------
+
+TYPE: Psychic / Rock
+=> WEAK x1: Bug, Steel, Ghost, Grass, Ground, Water, Dark
+=> WEAK x2: -
+=> RESIST x1: Fire, Flying, Normal, Poison, Psychic
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Psychic / Water
+=> WEAK x1: Bug, Electric, Ghost, Grass, Dark
+=> WEAK x2: -
+=> RESIST x1: Steel, Fighting, Fire, Ice, Psychic, Water
+=> RESIST x2: -
+=> IMMUNE: -
+------------------------
+
+TYPE: Psychic / Dark
+=> WEAK x1: Fairy
+=> WEAK x2: Bug
+=> RESIST x1: -
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Psychic / Steel
+=> WEAK x1: Ground, Fire, Ghost, Dark
+=> WEAK x2: -
+=> RESIST x1: Dragon, Flying, Grass, Ice, Normal, Rock, Steel, Fairy
+=> RESIST x2: Psychic
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Psychic / Fairy
+=> WEAK x1: Steel, Poison, Ghost
+=> WEAK x2: -
+=> RESIST x1: Psychic
+=> RESIST x2: Fighting
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Rock
+=> WEAK x1: -
+=> WEAK x2: Steel, Fighting, Grass, Ground, Water
+=> RESIST x1: -
+=> RESIST x2: Normal, Poison, Fire, Flying
+=> IMMUNE: -
+------------------------
+
+TYPE: Rock / Water
+=> WEAK x1: Ground, Electric, Fighting
+=> WEAK x2: Grass
+=> RESIST x1: Ice, Normal, Poison, Flying
+=> RESIST x2: Fire
+=> IMMUNE: -
+------------------------
+
+TYPE: Rock / Dark
+=> WEAK x1: Bug, Steel, Fairy, Grass, Ground, Water
+=> WEAK x2: Fighting
+=> RESIST x1: Fire, Flying, Ghost, Normal, Poison, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Rock / Steel
+=> WEAK x1: Water
+=> WEAK x2: Ground, Fighting
+=> RESIST x1: Bug, Dragon, Fairy, Ice, Psychic, Rock
+=> RESIST x2: Normal, Flying
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Rock / Fairy
+=> WEAK x1: Ground, Water, Grass
+=> WEAK x2: Steel
+=> RESIST x1: Bug, Fire, Flying, Normal, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Water
+=> WEAK x1: -
+=> WEAK x2: Electric, Grass
+=> RESIST x1: -
+=> RESIST x2: Steel, Ice, Fire, Water
+=> IMMUNE: -
+------------------------
+
+TYPE: Water / Dark
+=> WEAK x1: Bug, Fairy, Electric, Fighting, Grass
+=> WEAK x2: -
+=> RESIST x1: Steel, Fire, Ghost, Ice, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Water / Steel
+=> WEAK x1: Ground, Electric, Fighting
+=> WEAK x2: -
+=> RESIST x1: Bug, Dragon, Flying, Normal, Psychic, Rock, Water, Fairy
+=> RESIST x2: Steel, Ice
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Water / Fairy
+=> WEAK x1: Electric, Poison, Grass
+=> WEAK x2: -
+=> RESIST x1: Bug, Fighting, Fire, Ice, Water, Dark
+=> RESIST x2: -
+=> IMMUNE: Dragon
+------------------------
+
+TYPE: Dark
+=> WEAK x1: -
+=> WEAK x2: Bug, Fairy, Fighting
+=> RESIST x1: -
+=> RESIST x2: Ghost, Dark
+=> IMMUNE: Psychic
+------------------------
+
+TYPE: Dark / Steel
+=> WEAK x1: Ground, Fire
+=> WEAK x2: Fighting
+=> RESIST x1: Dragon, Flying, Ghost, Grass, Ice, Normal, Rock, Dark, Steel
+=> RESIST x2: -
+=> IMMUNE: Poison, Psychic
+------------------------
+
+TYPE: Dark / Fairy
+=> WEAK x1: Steel, Fairy, Poison
+=> WEAK x2: -
+=> RESIST x1: Ghost
+=> RESIST x2: Dark
+=> IMMUNE: Dragon, Psychic
+------------------------
+
+TYPE: Steel
+=> WEAK x1: -
+=> WEAK x2: Ground, Fighting, Fire
+=> RESIST x1: -
+=> RESIST x2: Bug, Dragon, Flying, Grass, Ice, Normal, Psychic, Rock, Steel, Fairy
+=> IMMUNE: Poison
+------------------------
+
+TYPE: Steel / Fairy
+=> WEAK x1: Ground, Fire
+=> WEAK x2: -
+=> RESIST x1: Flying, Grass, Ice, Normal, Psychic, Rock, Dark, Fairy
+=> RESIST x2: Bug
+=> IMMUNE: Dragon, Poison
+------------------------
+
+TYPE: Fairy
+=> WEAK x1: -
+=> WEAK x2: Steel, Poison
+=> RESIST x1: -
+=> RESIST x2: Bug, Fighting, Dark
+=> IMMUNE: Dragon
+------------------------
+
