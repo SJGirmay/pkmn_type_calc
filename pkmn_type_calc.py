@@ -8,6 +8,7 @@ WEAK = 1
 RESIST = 2
 IMMUNE = 3
 NEUTRAL = 4
+
 #VWEAK = 5
 #VRESIST = 6
 
