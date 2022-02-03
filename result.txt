@@ -1,6 +1,6 @@
 TYPE: Bug
 => WEAK x1: -
-=> WEAK x2: Flying, Fire, Rock
+=> WEAK x2: Rock, Fire, Flying
 => RESIST x1: -
 => RESIST x2: Ground, Fighting, Grass
 => IMMUNE: -
@@ -79,7 +79,7 @@ TYPE: Bug / Ice
 ------------------------
 
 TYPE: Bug / Normal
-=> WEAK x1: Flying, Fire, Rock
+=> WEAK x1: Rock, Fire, Flying
 => WEAK x2: -
 => RESIST x1: Ground, Grass
 => RESIST x2: -

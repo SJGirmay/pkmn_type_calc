@@ -8,15 +8,39 @@ WEAK = 1
 RESIST = 2
 IMMUNE = 3
 NEUTRAL = 4
-
 #VWEAK = 5
 #VRESIST = 6
 
+# Notes
+# Combinatotix problem
 # Hash Map, Collision of type weakness/resistances
 # See if any overlay, seeing if x4, x.25 is needed
 # Brute Force Baby
+# Covering Problem, SET COVERING, 1 Player game theory
+# Hard Theory of Computation Class
 
-# list of possible type combos
+# Sean Lawton
+# Geir Agnarsson
+# Daniel Anderson
+
+# Greedy Algorithm, Divide Table by two
+# 18-airy Tree, 4 branches for each
+# Go for Djeistras possible 
+# Alpha Beta Pruining?
+# Kiefer - kgreen32@gmu.edu
+# Megl Geometry Lab 
+
+# Find A solution to find any type first
+# ONE PERMUTATION THAT SOLVES IT
+# Make a whole tree of options and then search it
+# Find the shortest branch
+# Dynamic Programming.
+# Solve a sub-problem, Solve for only 5-9 types
+# Every possible combination of 3 dual types
+# Pure Greed
+# Optimization
+
+# List of possible type combos
 type_combos = []
 # Set of processed type combos
 processed_type_combos = []
@@ -64,7 +88,10 @@ types = [
     # 18 ('???', set(), set(), set()),
 ]
 
-# function to get a property set as a single string
+# Name, Weak to, Resist to, Immune to
+Unknown = [{}, {}, {}]
+
+# Function to get a property set as a single string
 def get_property_str(property_set):
     if not property_set:
         return '-'
@@ -189,6 +216,11 @@ def all_combos():
 def main():
     all_combos()
     print("Welcome to the Pokemon Proof!")
+    print(
+        "Weak to "   + Unknown[0],
+        "Resist to " + Unknown[1],
+        "Immune to " + Unknown[2]
+    )
     UnknownDefender = combine(types[0],types[6])
     attack(13, UnknownDefender) 
 
